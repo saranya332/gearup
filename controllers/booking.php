@@ -15,6 +15,8 @@ if (!isLoggedIn()) {
     exit;
 }
 
+// hello
+
 try {
     // Initialize BookingClass
     $bookingClass = new BookingClass($conn);
