@@ -16,6 +16,8 @@ if (isLoggedIn() && isset($_SESSION['login_time'])) {
     }
 }
 
+// hellooo
+
 // Get the requested page
 $page = $_GET['page'] ?? 'home';
 $validPages = [
